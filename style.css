@@ -1,0 +1,83 @@
+* {
+    padding: 10px;
+    margin: 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+ul ul ul {
+    margin-top: 10px;
+}
+
+/* 1. Headings */
+
+
+/* 2. Force 'CSS' to stay uppercase */
+span {
+    text-transform: uppercase;
+}
+
+/* 3. Paragraph styling */
+
+
+/* 4. Section borders */
+
+
+/* 5. List styling */
+
+
+/* Main list item colors */
+section > ul > li:nth-child(1) {
+    color: #2a52be;
+}
+
+section > ul > li:nth-child(2) {
+    color: #228b22;
+}
+
+section > ul > li:nth-child(3) {
+    color: #dc143c;
+}
+
+/* Sub-list */
+section > ul > ul > li:nth-child(1) {
+    color: #9400d3;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+/* Inner sub-list */
+section > ul > ul > ul > li:nth-child(1) {
+    color: #ff8c00;
+    background-color: #fdf6e3;
+    border-radius: 8px;
+    font-size: 0.85em;
+}
+
+/* Second violet item in sublist */
+section > ul > ul > li:nth-child(3) {
+    color: #9400d3;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+/* Final main list item */
+section > ul > li:last-child {
+    color: #2a52be;
+}
+
+/* Footer */
+footer {
+    border: 3px double red;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #ffe6e6;
+    text-align: center;
+}
