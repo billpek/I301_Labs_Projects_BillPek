@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+  NoVA Eats — McCormick &amp; Schmick's
+  IT 301 Final Project · Static website
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Review of McCormick and Schmick's seafood and steak house in Crystal City and National Harbor.">
+  <title>McCormick &amp; Schmick's | NoVA Eats</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Roboto:wght@700&amp;display=swap">
+
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/mccormick.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header id="top">
+    <div class="container">
+      <a class="logo" href="index.html">NoVA Eats</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="kabob-express.html">Kabob Express</a></li>
+          <li><a href="melt.html">MELT</a></li>
+          <li><a href="sushi-on.html">Sushi On</a></li>
+          <li><a href="sweetwater.html">Sweetwater</a></li>
+          <li><a href="mccormick.html" class="active">McCormick's</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+
+    <!-- Page intro: location + description -->
+    <section>
+      <p class="location">Crystal City &middot; National Harbor</p>
+      <h1>McCormick &amp; Schmick's</h1>
+      <p>A more upscale seafood and steak house, with fish and shellfish from the Pacific, the Atlantic, and the Gulf alongside aged steaks. It's more expensive, but the quality of the steak is fantastic.</p>
+    </section>
+
+    <div class="photo">
+      <img src="images/mccormick-1.jpg" alt="A 14-ounce New York strip topped with garlic butter, with mashed potatoes and grilled asparagus at McCormick and Schmick's">
+      <span class="score">9/10</span>
+    </div>
+
+    <div class="review">
+      <section class="review-text">
+        <h2>The vibe</h2>
+        <p>A classy, sit-down steak house that's made for a night out:</p>
+        <ul>
+          <li>Birthdays and celebrations</li>
+          <li>Special occasions</li>
+          <li>When you're in the mood for a top-quality cut of steak</li>
+        </ul>
+        <p>I came here to celebrate my 14th and 21st birthday, plus my first internship, so it holds a lot of sentimental value for me.</p>
+
+        <h2>What to order</h2>
+        <p>My go-to is the 14&nbsp;oz New York strip with mashed potatoes and asparagus &mdash; the one in the photo above.</p>
+
+        <blockquote>&ldquo;Amazing steak for special occasions.&rdquo;</blockquote>
+
+        <h2>The verdict: 9/10</h2>
+        <p>A more upscale and expensive steak house, but the quality of the steak is fantastic. A definite go-to for a special occasion, or if you're in the mood for a top-quality cut of steak.</p>
+      </section>
+
+      <aside class="facts">
+        <h2>Quick facts</h2>
+        <ul>
+          <li><strong>Cuisine:</strong> Seafood &amp; steaks</li>
+          <li><strong>Known for:</strong> Aged steaks &amp; fresh seafood</li>
+          <li><strong>Price:</strong> $$$</li>
+          <li><strong>Best for:</strong> Special occasions</li>
+          <li><strong>Crystal City:</strong> 2010 Crystal Dr, Arlington, VA 22202</li>
+          <li><strong>National Harbor:</strong> 145 National Plaza, National Harbor, MD</li>
+        </ul>
+        <a class="button" href="https://www.mccormickandschmicks.com/">Official website</a>
+        <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=McCormick+and+Schmick's+2010+Crystal+Dr+Arlington+VA">Directions to Crystal City</a>
+      </aside>
+    </div>
+  </main>
+
+  <!-- site footer -->
+  <footer>
+    <div class="container">
+      <p><strong>NoVA Eats</strong></p>
+      <p>A local's guide to the Northern Virginia restaurants I keep going back to. Every photo on this site was taken and eaten by me.</p>
+      <!-- EMAIL SIGNUP FORM: built-in HTML validation (required + type="email") -->
+      <form>
+        <label for="email">Get new reviews by email:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <p>Made by Bill &ndash; IT301</p>
+    </div>
+    <!-- Back-to-top button: uses position: fixed (see shared.css) -->
+    <a class="top-button" href="#top">&uarr; Top</a>
+  </footer>
+</body>
+</html>

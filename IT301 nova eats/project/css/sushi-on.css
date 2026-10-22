@@ -1,0 +1,26 @@
+/* sushi on page styles */
+
+/* caption on top of the photo (absolute positioning) */
+.caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 10px 15px;
+  background-color: rgba(15, 30, 61, 0.85);
+  border-radius: 0 0 8px 8px;
+}
+
+/* quote inside a maroon box */
+blockquote {
+  background-color: #7a1c2c;
+  border-radius: 8px;
+}
+
+/* media queries for phones */
+@media (max-width: 768px) {
+  .caption {
+    font-size: 14px;
+  }
+}

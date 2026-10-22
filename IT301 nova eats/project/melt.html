@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+  NoVA Eats — MELT Gourmet Cheeseburgers
+  IT 301 Final Project · Static website
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Review of MELT Gourmet Cheeseburgers in Leesburg, Virginia.">
+  <title>MELT Gourmet Cheeseburgers | NoVA Eats</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Roboto:wght@700&amp;display=swap">
+
+
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/melt.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header id="top">
+    <div class="container">
+      <a class="logo" href="index.html">NoVA Eats</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="kabob-express.html">Kabob Express</a></li>
+          <li><a href="melt.html" class="active">MELT</a></li>
+          <li><a href="sushi-on.html">Sushi On</a></li>
+          <li><a href="sweetwater.html">Sweetwater</a></li>
+          <li><a href="mccormick.html">McCormick's</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+
+    <section>
+      <p class="location">Downtown Leesburg</p>
+      <h1>MELT Gourmet Cheeseburgers</h1>
+      <p>A small burger counter on East Market Street with a multitude of craft burger choices, house-made buns, and even a create-your-own burger option.</p>
+    </section>
+
+    <div class="melt-top">
+      <div class="photo">
+        <img class="melt-pic" src="images/melt-1.jpg" alt="The Bacon-Bleu Burger at MELT, stacked with bacon, bleu cheese, caramelized red onions, tomato, lettuce, and sauce on a house-made bun">
+        <span class="score">9.5/10</span>
+      </div>
+      <ol class="burger" aria-label="The Bacon-Bleu Burger, from top bun to bottom bun">
+        <li class="bun top-bun">House-made bun</li>
+        <li class="veg">Lettuce &amp; tomato</li>
+        <li class="bacon">Bacon &amp; red onion</li>
+        <li class="cheese">Bleu cheese</li>
+        <li class="patty">Beef patty</li>
+        <li class="bun">Bottom bun</li>
+      </ol>
+    </div>
+
+    <div class="review">
+      <section class="review-text">
+        <h2>The vibe</h2>
+        <p>They cook everything in the open, so you get to see how fresh everything is. I firmly believe there's something for everyone here, including patties beyond beef:</p>
+        <ul>
+          <li>Beef</li>
+          <li>Chicken</li>
+          <li>Turkey</li>
+          <li>Veggie</li>
+        </ul>
+
+        <h2>What to order</h2>
+        <p>My go-to is the Bacon-Bleu Burger &mdash; built layer by layer next to the photo above.</p>
+
+        <blockquote>&ldquo;Not just the best burger in Northern Virginia, this place will give any burger spot a run for its money.&rdquo;</blockquote>
+
+        <h2>The verdict: 9.5/10</h2>
+        <p>Anyone who enjoys burgers should be coming here. With so many craft burger choices and a create-your-own option, there's something for everyone.</p>
+      </section>
+
+      <aside class="facts">
+        <h2>Quick facts</h2>
+        <ul>
+          <li><strong>Cuisine:</strong> Burgers</li>
+          <li><strong>Known for:</strong> Craft burgers on house-made buns</li>
+          <li><strong>Price:</strong> $$</li>
+          <li><strong>Best for:</strong> Anyone who loves burgers</li>
+          <li><strong>Leesburg:</strong> 525 E Market St, Suite J, Leesburg, VA 20176</li>
+        </ul>
+        <a class="button" href="https://meltgourmetcheeseburgers.com/">Official website</a>
+        <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=MELT+Gourmet+Cheeseburgers+Leesburg+VA">Get directions</a>
+      </aside>
+    </div>
+  </main>
+
+  <!-- site footer -->
+  <footer>
+    <div class="container">
+      <p><strong>NoVA Eats</strong></p>
+      <p>A local's guide to the Northern Virginia restaurants I keep going back to. Every photo on this site was taken and eaten by me.</p>
+      <!-- EMAIL SIGNUP FORM: built-in HTML validation (required + type="email") -->
+      <form>
+        <label for="email">Get new reviews by email:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <p>Made by Bill &ndash; IT301</p>
+    </div>
+    <!-- Back-to-top button: uses position: fixed (see shared.css) -->
+    <a class="top-button" href="#top">&uarr; Top</a>
+  </footer>
+</body>
+</html>

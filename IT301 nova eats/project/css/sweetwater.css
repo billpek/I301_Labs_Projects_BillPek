@@ -1,0 +1,13 @@
+/* sweetwater page styles */
+
+/* quote with a maroon bar on the left */
+blockquote {
+  border-left: 5px solid #7a1c2c;
+}
+
+/* media queries for phones */
+@media (max-width: 768px) {
+  blockquote {
+    font-size: 19px;
+  }
+}

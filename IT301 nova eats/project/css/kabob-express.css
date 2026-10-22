@@ -1,0 +1,19 @@
+/* kabob express page styles */
+
+/* taller photo so the whole tray shows */
+.photo img {
+  height: 550px;
+}
+
+/* quote lined up on the right */
+blockquote {
+  border-right: 5px solid #7a1c2c;
+  text-align: right;
+}
+
+/* media queries for phones */
+@media (max-width: 768px) {
+  .photo img {
+    height: 400px;
+  }
+}

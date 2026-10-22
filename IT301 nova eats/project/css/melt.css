@@ -1,0 +1,71 @@
+/* melt page styles */
+
+/* photo and burger graphic side by side */
+.melt-top {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.melt-top .photo {
+  flex: 2;
+}
+
+/* burger graphic: one colored bar per layer */
+.burger {
+  flex: 1;
+  max-width: 280px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.burger li {
+  margin-bottom: 5px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.bun {
+  background-color: #d89a4a;
+  color: #0f1e3d;
+}
+
+.top-bun {
+  border-radius: 80px 80px 8px 8px;
+}
+
+.veg {
+  background-color: #4a6f30;
+}
+
+.bacon {
+  background-color: #7a1c2c;
+}
+
+.cheese {
+  background-color: #f2b53a;
+  color: #0f1e3d;
+}
+
+.patty {
+  background-color: #4a2a1a;
+}
+
+/* quote with a line under it */
+blockquote {
+  padding-left: 0;
+  border-bottom: 5px solid #ecbcc5;
+}
+
+/* media queries for phones */
+@media (max-width: 768px) {
+  .melt-top {
+    flex-direction: column;
+  }
+
+  .burger {
+    width: 100%;
+  }
+}
